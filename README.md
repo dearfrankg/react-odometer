@@ -16,7 +16,7 @@
 
 
 
-![](http://g.recordit.co/PGFrJB3Qm3.gif)
+![](http://g.recordit.co/k4Fj8o9JIC.gif)
 
 ## Getting Started
 
