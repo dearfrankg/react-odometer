@@ -1,9 +1,3 @@
-import React from 'react'
+import {default as Odometer} from './Odometer';
 
-export default React.createClass({
-  render() {
-    return <div>
-      <h2>Welcome to React components</h2>
-    </div>
-  }
-})
+export default Odometer
