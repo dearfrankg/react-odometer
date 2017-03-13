@@ -19,6 +19,10 @@
 
 ![](http://g.recordit.co/k4Fj8o9JIC.gif)
 
+See the [demo](http://diligent-tendency.surge.sh/)
+
+
+
 ## Getting Started
 
 ```
