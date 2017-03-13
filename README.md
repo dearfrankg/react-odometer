@@ -26,24 +26,21 @@ See the [demo](http://diligent-tendency.surge.sh/)
 ## Getting Started
 
 ```
-npm install react-odometer
+npm install dearfrankg/react-odometer
 ```
 
 ```javascript
 import Odometer from 'react-odometer'
-
-[...]
-
-render () {
-  return (
-    <Odometer
-      size={72}
-      digits={4}
-      number={1500}
-      speed={500}
-    />
-  )
-}
+```
+```javascript
+render(
+  <Odometer
+    size={72}
+    digits={4}
+    number={1500}
+    speed={500}
+  />
+)
 ```
 
 - size – font size in pixels
