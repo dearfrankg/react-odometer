@@ -12,7 +12,7 @@
   ],
   "jest": {
     "transform": {
-      "^.+\\.js$": "/Users/frankg/dev/code/4-projects/web_component/1-my-code/react-odometer/jest.transform.js"
+      "^.+\\.js$": "./jest.transform.js"
     }
   },
   "scripts": {
