@@ -73,7 +73,7 @@ describe('Odometer', () => {
     })
   })
 
-  describe('When providing a number large than the digits', () => {
+  describe('When providing a number larger than the digits can handle', () => {
     it('should truncate the most significant digits', () => {
       const component = mount(<Odometer number={10000} />)
       const actual = component.children().length
