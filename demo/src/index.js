@@ -16,10 +16,10 @@ const styles = {
 @injectSheet(styles)
 class Demo extends React.Component {
   state = {
-    timer1: Math.floor(Math.random() * 10000),
-    timer2: Math.floor(Math.random() * 10000),
-    timer3: Math.floor(Math.random() * 10000),
-    timer4: Math.floor(Math.random() * 10000),
+    timer1: Math.floor(Math.random() * 1000000),
+    timer2: Math.floor(Math.random() * 1000000),
+    timer3: Math.floor(Math.random() * 1000000),
+    timer4: Math.floor(Math.random() * 1000000),
   }
 
   interval
@@ -52,12 +52,6 @@ class Demo extends React.Component {
   render () {
     const { classes } = this.props
     const { timer1, timer2, timer3, timer4 } = this.state
-    const options = {
-      size:72,
-      digits:4,
-      number:timer1,
-      speed:this.speed,
-    }
 
     return (
       <div className={classes.demo} >
@@ -68,13 +62,13 @@ class Demo extends React.Component {
           <button onClick={this.pause}>Pause</button>
         </div>
 
-        <Odometer {...options} />
+        <Odometer number={timer1} speed={this.speed} />
         <div></div>
-        <Odometer {...options} size={48} number={timer2}  />
+        <Odometer digits={6} size={48} number={timer2}  />
         <div></div>
-        <Odometer {...options} size={36} number={timer3}  />
+        <Odometer digits={6} size={36} number={timer3}  />
         <div></div>
-        <Odometer {...options} size={18} number={timer4}  />
+        <Odometer size={18} number={timer4}  />
 
       </div>
     )
