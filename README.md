@@ -42,3 +42,8 @@ render(
 - digits – number of digits in the odometer
 - number – number to display
 - speed – milliseconds to animate one digit to the next
+
+## CONTRIBUTORS
+
+- John Avila
+
