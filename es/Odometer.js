@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import Digit from './Digit';
 import injectSheet from 'react-jss';
@@ -33,10 +34,10 @@ var Odometer = function Odometer(_ref) {
 };
 
 process.env.NODE_ENV !== "production" ? Odometer.propTypes = {
-  number: React.PropTypes.number.isRequired,
-  digits: React.PropTypes.number,
-  speed: React.PropTypes.number,
-  size: React.PropTypes.number
+  number: PropTypes.number.isRequired,
+  digits: PropTypes.number,
+  speed: PropTypes.number,
+  size: PropTypes.number
 } : void 0;
 
 var styles = {
