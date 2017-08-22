@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react'
 import injectSheet from 'react-jss'
 
@@ -20,9 +21,9 @@ const Digit = ({digit, animate, speed, classes}) => {
 }
 
 Digit.propTypes = {
-  digit: React.PropTypes.string.isRequired,
-  speed: React.PropTypes.number.isRequired,
-  animate: React.PropTypes.bool,
+  digit: PropTypes.string.isRequired,
+  speed: PropTypes.number.isRequired,
+  animate: PropTypes.bool,
 }
 
 const styles = {
