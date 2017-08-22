@@ -1,5 +1,6 @@
 var _styles;
 
+import PropTypes from 'prop-types';
 import React from 'react';
 import injectSheet from 'react-jss';
 
@@ -29,9 +30,9 @@ var Digit = function Digit(_ref) {
 };
 
 process.env.NODE_ENV !== "production" ? Digit.propTypes = {
-  digit: React.PropTypes.string.isRequired,
-  speed: React.PropTypes.number.isRequired,
-  animate: React.PropTypes.bool
+  digit: PropTypes.string.isRequired,
+  speed: PropTypes.number.isRequired,
+  animate: PropTypes.bool
 } : void 0;
 
 var styles = (_styles = {

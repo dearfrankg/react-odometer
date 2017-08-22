@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react'
 import Digit from './Digit'
 import injectSheet from 'react-jss'
@@ -25,10 +26,10 @@ const Odometer = ({number, digits = 4, speed = 100, size = 72, classes}) => {
 }
 
 Odometer.propTypes = {
-  number: React.PropTypes.number.isRequired,
-  digits: React.PropTypes.number,
-  speed: React.PropTypes.number,
-  size: React.PropTypes.number
+  number: PropTypes.number.isRequired,
+  digits: PropTypes.number,
+  speed: PropTypes.number,
+  size: PropTypes.number
 }
 
 const styles = {
